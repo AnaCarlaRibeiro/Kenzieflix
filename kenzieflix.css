@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color:#121214;
+
+}
+main{   
+    height: 100vh;    
+    background: #121214;
+    border-radius: 12px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3{
+    position: static;
+size: 14px;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+.usuário{
+    display: block;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0 px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    
+}
+li{
+    text-align: center;
+    color: white;
+     
+}
+img{
+    border-radius: 10px;
+
+}
+
+    .botão{
+     color: white;
+        
+       
+        border: 1.5px solid white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        size: 14px;
+        box-sizing: border-box;
+    display: flex;
+    cursor:pointer;
+    overflow: hidden;
+    width: 206px;
+    height: 50px; 
+    position: relative;
+    margin: 50px 0px;
+          
+        }
+
+     .item{
+         width: 118px;
+         height: 21px;
+         top: 14px;
+         left: 44px;
+         cursor: pointer;
+         text-align: center;
+justify-content: center;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 500;
+font-size: 16px;
+bottom: 30%;
+top: 28%;
+right: 21.36%;
+left: 21.36%;
+position: absolute;
+     }       
+     .item:hover{
+         background-color: transparent;
+         text-decoration: underline blue;
+        border-radius: 2px solid white;
+     }
+     .botão:hover{
+         background-color: transparent;
+         border: 2px solid #FFFFFF;
+     }
+     .usuário:hover {
+         background-color: #FFFFFF;
+border:1px solid white;         
+}
+h3{
+    position: static;
+    left:31.56%;
+    right: 31.56%;
+    top:90.72%;
+    bottom:0%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9c9c9c;
+    flex:none;
+    order: 1;  
+    margin: 16px 0px;
+    
+    
+
+}
+
+h3:hover{
+
+      bottom: 0%;
+   border-radius: 2px solid;
+   
+
+}
